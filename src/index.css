@@ -1,6 +1,7 @@
 
 html {
     font-size: 10px;
+    height: 1000rem;
 }
 body {
     background: lightblue;
@@ -9,6 +10,10 @@ body {
 *, ::backdrop, ::after {
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-size: 2rem;
 }
 
 .usestate-container {
@@ -29,4 +34,35 @@ body {
 
 .usestate-container span {
     margin: 0 1rem;
+}
+
+.useeffect-container {
+    width: 90%;
+    padding:  1rem;
+    border: 1px solid rgb(189, 21, 43);
+    border-radius: .3rem;
+    height: 20rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.btn-container button {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.resource {
+    font-size: 3rem;
+}
+
+.items {
+    margin-top: 2rem;
+    border: 2px solid yellow;
+}
+
+.showWidth {
+    text-align: center;
+    color:red;
 }

@@ -1,9 +1,13 @@
 import React from 'react'
-import Usestate from './components/useState/Usestate'
+import UseState from './components/useState/UseState'
+import UseEffect from './components/useEffect/UseEffect'
 
 function App() {
     return (
-        <Usestate />
+        <>
+            <UseState />
+            <UseEffect />
+        </>
     )
 }
 
