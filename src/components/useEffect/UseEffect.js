@@ -21,7 +21,7 @@ function UseEffect() {
         }
     }, [resourceType])
     return (
-        <>
+        <div >
             <div className='useeffect-container'>
                 <div className='btn-container'>
                     <button onClick={() => setResourceType('posts')}>Posts</button>
@@ -36,11 +36,11 @@ function UseEffect() {
             </div>
             <div className='items'>
                 {items.map(item => {
-                    return <pre>{JSON.stringify(item)}</pre>
+                    return <pre key={Math.random() * 1999}>{JSON.stringify(item)}</pre>
                 })}
             </div>
 
-        </>
+        </div>
     )
 }
 
