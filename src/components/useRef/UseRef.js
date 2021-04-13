@@ -7,6 +7,7 @@ const UseRef = () => {
     const focus = () => {
         console.log(inputRef);
         inputRef.current.focus()
+        inputRef.current.style.backgroundColor = 'lightgreen'
     }
 
     useEffect(() => {
