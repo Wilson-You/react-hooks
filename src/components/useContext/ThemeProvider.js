@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, Children } from 'react'
 
 const ThemeContext = React.createContext()
 const ThemeUpdateContext = React.createContext()
