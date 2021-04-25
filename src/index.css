@@ -83,3 +83,8 @@ label {
     text-align: center;
     color:red;
 }
+
+.useContext {
+    margin: auto;
+    text-align: center;
+}
